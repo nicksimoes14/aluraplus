@@ -1,8 +1,8 @@
 :root{
     --branco-principal:#ffffff;
-    --cinza-secundario:hsl(0, 0%, 75%);
+    --cinza-secundario: #C0C0C0;
     --botao-azul:#167BF7;
-    --cor-de-fundo: #0030;
+    --cor-de-fundo: #00030C; 
     --fonte-principal:'Inter';
 }
 
@@ -14,16 +14,20 @@
 
 body{
     background-color: var(--cor-de-fundo);
-    color:var(--branco-principal);
-    family-font:var[--fonte-principal]
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+
 
 }
     
 
-.container-principal{
-    background-image: url('Background.png');
-    
-}
-   
+.principal{
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 
-C
+}
+   .container{
+    height: 100vh;
+    display: grid;
+ }
